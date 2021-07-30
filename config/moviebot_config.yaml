@@ -1,7 +1,7 @@
 ---
 
 CONVERSATION_LOGS: # implementation: save conversational logs for debugging
-    save: False
+    save: True
     nlp: True
     path: reports/conversations/
 
@@ -15,9 +15,9 @@ NLU:
 
 TELEGRAM: True # execute the code on Telegram
 
-POLLING: False # True when using Telegram without server
+POLLING: True # True when using Telegram without server #changed by me
 
-MESSENGER: True
+MESSENGER: False # changed by me
 
 BOT_TOKEN_PATH: config/bot_token.yaml
 
